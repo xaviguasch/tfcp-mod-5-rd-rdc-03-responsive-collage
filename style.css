@@ -1,3 +1,21 @@
 /* ==========================
 	Write your solution here!
    ========================== */
+
+.col {
+  display: flex;
+  justify-items: center;
+}
+
+img {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 720px) {
+  .col {
+    flex-direction: column;
+  }
+}
